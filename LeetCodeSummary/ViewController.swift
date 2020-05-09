@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        print("开始运行")
+        
         //
 //        let twoSumObj = TwoSum()
 //        let ret = twoSumObj.twoSumSimple(nums: [1,2,3,4,5,6,7], target: 3)
@@ -21,9 +23,13 @@ class ViewController: UIViewController {
 //        let resultArr = twoSumObj.twoSumResult(nums: [1,2,3,4,5,6,7], target: 8)
 //        print(resultArr)
         
-        let obj = CommenPrefix()
-        let arr = obj.longestCommonPrefix([""])
-        print("最长前缀:\(arr)")
+//        let obj = CommenPrefix()
+//        let arr = obj.longestCommonPrefix([""])
+//        print("最长前缀:\(arr)")
+        
+        let obj = MySqrt()
+        let num = obj.mySqrtFunc(7)
+        print("平方根结果：\(num)")
     }
 
 

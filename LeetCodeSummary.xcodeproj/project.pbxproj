@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		48A50E9724667422005AA28C /* MySqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A50E9624667422005AA28C /* MySqrt.swift */; };
 		48E1464E2464F7E60015AB7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E1464D2464F7E60015AB7B /* AppDelegate.swift */; };
 		48E146502464F7E60015AB7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E1464F2464F7E60015AB7B /* SceneDelegate.swift */; };
 		48E146522464F7E60015AB7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E146512464F7E60015AB7B /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		48A50E9624667422005AA28C /* MySqrt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySqrt.swift; sourceTree = "<group>"; };
 		48E1464A2464F7E60015AB7B /* LeetCodeSummary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeSummary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E1464D2464F7E60015AB7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48E1464F2464F7E60015AB7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 				48E1467F246544DA0015AB7B /* AddTwoNumbers.swift */,
 				48E14683246548B30015AB7B /* FibonacciSum.swift */,
 				48E146852465520E0015AB7B /* CommenPrefix.swift */,
+				48A50E9624667422005AA28C /* MySqrt.swift */,
 				48E146532464F7E60015AB7B /* Main.storyboard */,
 				48E146562464F7E70015AB7B /* Assets.xcassets */,
 				48E146582464F7E70015AB7B /* LaunchScreen.storyboard */,
@@ -278,6 +281,7 @@
 				48E146522464F7E60015AB7B /* ViewController.swift in Sources */,
 				48E146862465520E0015AB7B /* CommenPrefix.swift in Sources */,
 				48E1464E2464F7E60015AB7B /* AppDelegate.swift in Sources */,
+				48A50E9724667422005AA28C /* MySqrt.swift in Sources */,
 				48E1467E2464F80F0015AB7B /* TwoSum.swift in Sources */,
 				48E146502464F7E60015AB7B /* SceneDelegate.swift in Sources */,
 				48E14684246548B30015AB7B /* FibonacciSum.swift in Sources */,
