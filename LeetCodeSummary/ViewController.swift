@@ -27,9 +27,15 @@ class ViewController: UIViewController {
 //        let arr = obj.longestCommonPrefix([""])
 //        print("最长前缀:\(arr)")
         
-        let obj = MySqrt()
-        let num = obj.mySqrtFunc(7)
-        print("平方根结果：\(num)")
+//        let obj = MySqrt()
+//        let num = obj.mySqrtFunc(7)
+//        print("平方根结果：\(num)")
+        
+        let obj = ReverseNum()
+        let num = obj.reverseNumFunc(-598)
+        print("整数反转结果：\(num)")
+        
+        
     }
 
 

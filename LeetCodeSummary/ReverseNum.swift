@@ -34,21 +34,53 @@ import UIKit
 
 class ReverseNum: NSObject {
 
-    func reverseNumFunc1(_ x :Int)->Int{
-        let stringNum = String("abs(x)".reversed())
-        let reslut = x > 0 ? Int(stringNum)! : 0-Int(stringNum)!
-        if reslut > INT32_MAX || reslut < Int32.min{
+    func reverseNumFunc(_ x :Int)->Int{
+        
+        var a = 0
+        var sumNum = 0
+        
+        var tmp = x
+        
+        while tmp != 0 {
+            a = tmp%10
+            tmp = tmp/10
+            sumNum = sumNum*10 + a
+        }
+        
+        if sumNum > INT32_MAX || sumNum < Int32.min{
             return 0
         }else{
-            return reslut
+            return sumNum
         }
     }
     
     
-    func reverseNumFunc2(_ x :Int)->Int{
+    //9：判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
+    //回文数问题也可以用这个方法  将整数倒置 然后比较结果。
+    
+    func isPalindrome(_ x :Int)->Bool{
+        if x < 0 {
+            return false
+        }
+        if x >= 0 && x < 9{
+            return true
+        }
         
-
-        return 0
+        var a = 0
+        var sumNum = 0
+        
+        var tmp = x
+        
+        while tmp != 0 {
+            a = tmp%10
+            tmp = tmp/10
+            sumNum = sumNum*10 + a
+        }
+        
+        return sumNum == x
     }
+    
+    
+    
     
 }
