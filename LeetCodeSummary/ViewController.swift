@@ -41,7 +41,7 @@ class ViewController: UIViewController {
 //        print("罗马数字转整数结果：\(num)")
         
         let obj = RomanToInt()
-        let num = obj.intToRoman(1994)
+        let num = obj.convenientIdea(1994)
         print("整数转罗马数字结果：\(num)")
         
         

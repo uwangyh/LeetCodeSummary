@@ -91,7 +91,6 @@ class RomanToInt: NSObject {
     }
     
     
-    
     func intToRoman(_ num: Int) -> String {
         let romanHash = [1:"I",
                          4:"IV",
@@ -199,6 +198,26 @@ class RomanToInt: NSObject {
         }
         
         return resultStr
+    }
+    
+    
+    //比较简便的方法
+    func convenientIdea(_ num: Int) -> String {
+        let list1 = [1000,900,500,400,100,90,50,40,10,9,5,4,1]
+        let list2 = ["M","CM","D","CD","C","XC","L","XL","X","IX","V","IV","I"]
+        var resultArr = [String]()
+        
+        var i = 0
+        var myNum = num
+        while myNum > 0 {
+            if myNum - list1[i] >= 0 {
+                resultArr.append(list2[i])
+                myNum = myNum - list1[i]
+            }else{
+                i = i+1
+            }
+        }
+        return resultArr.joined(separator: "")
     }
     
 }
