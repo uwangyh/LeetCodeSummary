@@ -79,8 +79,4 @@ class ReverseNum: NSObject {
         
         return sumNum == x
     }
-    
-    
-    
-    
 }

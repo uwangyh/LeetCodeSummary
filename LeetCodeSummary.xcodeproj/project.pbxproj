@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4875E9C3247B5EB9008E0F7F /* RomanToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4875E9C2247B5EB9008E0F7F /* RomanToInt.swift */; };
 		48A50E9724667422005AA28C /* MySqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A50E9624667422005AA28C /* MySqrt.swift */; };
 		48A50E992466876B005AA28C /* ReverseNum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A50E982466876B005AA28C /* ReverseNum.swift */; };
 		48E1464E2464F7E60015AB7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E1464D2464F7E60015AB7B /* AppDelegate.swift */; };
@@ -42,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4875E9C2247B5EB9008E0F7F /* RomanToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToInt.swift; sourceTree = "<group>"; };
 		48A50E9624667422005AA28C /* MySqrt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySqrt.swift; sourceTree = "<group>"; };
 		48A50E982466876B005AA28C /* ReverseNum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseNum.swift; sourceTree = "<group>"; };
 		48E1464A2464F7E60015AB7B /* LeetCodeSummary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeSummary.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -123,6 +125,7 @@
 				48E146852465520E0015AB7B /* CommenPrefix.swift */,
 				48A50E9624667422005AA28C /* MySqrt.swift */,
 				48A50E982466876B005AA28C /* ReverseNum.swift */,
+				4875E9C2247B5EB9008E0F7F /* RomanToInt.swift */,
 				48E146532464F7E60015AB7B /* Main.storyboard */,
 				48E146562464F7E70015AB7B /* Assets.xcassets */,
 				48E146582464F7E70015AB7B /* LaunchScreen.storyboard */,
@@ -280,6 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4875E9C3247B5EB9008E0F7F /* RomanToInt.swift in Sources */,
 				48E14680246544DB0015AB7B /* AddTwoNumbers.swift in Sources */,
 				48E146522464F7E60015AB7B /* ViewController.swift in Sources */,
 				48E146862465520E0015AB7B /* CommenPrefix.swift in Sources */,

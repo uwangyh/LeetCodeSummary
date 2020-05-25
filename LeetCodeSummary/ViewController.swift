@@ -31,9 +31,18 @@ class ViewController: UIViewController {
 //        let num = obj.mySqrtFunc(7)
 //        print("平方根结果：\(num)")
         
-        let obj = ReverseNum()
-        let num = obj.reverseNumFunc(-598)
-        print("整数反转结果：\(num)")
+//        let obj = ReverseNum()
+//        let num = obj.reverseNumFunc(-598)
+//        print("整数反转结果：\(num)")
+        
+        
+//        let obj = RomanToInt()
+//        let num = obj.romanToInt("MCMXCIV")
+//        print("罗马数字转整数结果：\(num)")
+        
+        let obj = RomanToInt()
+        let num = obj.intToRoman(1994)
+        print("整数转罗马数字结果：\(num)")
         
         
     }
